@@ -11,11 +11,10 @@
 
 <body>
 
-    <h1>Hello, World!</h1>
+    <h1>About us!</h1>
 
 
-    <div><a href="/about">about us</a></div>
-    <div><a href="/contact">contact</a></div>
+    <div><a href="/">HOME</a></div>
 
 </body>
 
