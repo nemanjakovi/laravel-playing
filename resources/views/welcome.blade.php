@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<x-layout title="Home">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <h1>Home!</h1>
+    <p> {{ $greeting, }}, {{ $person }}</p>
+   
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-</head>
-
-<body>
-
-    <h1>Hello, World!</h1>
-
-
-    <div><a href="/about">about us</a></div>
-    <div><a href="/contact">contact</a></div>
-
-</body>
-
-</html>
+</x-layout>
