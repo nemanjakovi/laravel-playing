@@ -9,27 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{{ $title }}</title>
-    <style>
-        .max-w-400 {
-            max-width: 400px;
-            margin: auto;
-        }
+    <script src="https://cdn.tailwindcss.com"></script>
 
-        .card {
-            background: #e3e3e3;
-            padding: 1rem;
-            text-align: center
-        }
-    </style>
+
 </head>
 
-<body>
-
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About us</a>
-        <a href="/contact">Contact</a>
-    </nav>
+<body class="bg-gray-700 p-6 max-v-xl mx-auto">
 
 
     <main>
